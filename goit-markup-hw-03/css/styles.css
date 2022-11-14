@@ -1,3 +1,26 @@
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+  }
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  overflow-y: auto;
+  overflow-x: auto;
+}
+
+.container {
+  height: 1880px;
+  width: 1200px;
+  left: -4px;
+  top: -1175px;
+  border-radius: 0px;
+}
+
 .content {
   align-items: center;
   background-color: rgba(47, 48, 58, 1);
@@ -10,14 +33,15 @@
 }
   
 .navbar {
-
   align-items: center;
   background-color: rgba(255, 255, 255, 1);
   display: flex;
   height: 70px;
   justify-content: space-between;
   padding: 10px;
-  }
+  height: 80px;
+  border-radius: 0px;
+}
   
 .nav-bar-icon {
   margin-right: 10px;
@@ -217,14 +241,6 @@ address {
   width: 231px;
 }
 
-.container {
-  height: 1880px;
-  width: 1200px;
-  left: -4px;
-  top: -1175px;
-  border-radius: 0px;
-
-}
 
 .main-content {
   align-items: center;
@@ -282,7 +298,6 @@ address {
   height: 260px;
 }
 
-
 .team-section {
   align-items: center;
   display: flex;
@@ -320,6 +335,8 @@ address {
   justify-content: space-between;
   margin-top: 0;
 }
+
+
 
 .product-cards > li {
   height: 450px;
